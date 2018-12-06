@@ -153,6 +153,13 @@ body {
   }
 }
 
+@media (max-width: 450px) {
+  .cover-heading {
+    font-size: 40px;
+  }
+
+}
+
 
 /*
  * Cover
@@ -174,7 +181,7 @@ body {
   opacity: 0.8;
 }
 
-.mastfoot {
+.mastfoot .mtauto {
   color: rgba(255, 255, 255, .5);
   max-width: 200%;
 }
