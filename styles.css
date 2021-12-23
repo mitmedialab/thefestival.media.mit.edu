@@ -173,11 +173,11 @@ body {
  * Footer
  */
 .footnote {
-  color: #fff;
+  color: #000;
   opacity: 0.8;
 }
 
 .mastfoot .mtauto {
-  color: rgba(255, 255, 255, .5);
+  color: #000;
   max-width: 200%;
 }
