@@ -34,8 +34,8 @@ body {
 
 body {
   font-family: Helvetica, sans-serif;
-  animation: colorchange 60s infinite;
-  -webkit-animation: colorchange 60s infinite;
+  animation: colorchange 45s infinite;
+  -webkit-animation: colorchange 45s infinite;
   display: -ms-flexbox;
   display: flex;
   color: #000;
@@ -59,20 +59,18 @@ body {
 
 @keyframes colorchange
     {
-      0%   {background: #FF72C0;}
-      25%  {background: #FFD400;}
-      50%  {background: #4AFF9F;}
-      75%  {background: #24E9F6;}
-      100% {background: #FF72C0;}
+      0%   {background: #FDC5FF;}
+      33%  {background: #FFB050;}
+      66%  {background: #FE8E78;}
+      100%  {background: #FDC5FF;}
     }
 
 @-webkit-keyframes colorchange
     {
-      0%   {background: #FF72C0;}
-      25%  {background: #FFD400;}
-      50%  {background: #4AFF9F;}
-      75%  {background: #24E9F6;}
-      100% {background: #FF72C0;}
+      0%   {background: #FDC5FF;}
+      33%  {background: #FFB050;}
+      66%  {background: #FE8E78;}
+      100%  {background: #FDC5FF;}
     }
 
 .event-details {
