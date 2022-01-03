@@ -2,14 +2,13 @@
  * Globals
  */
 
-@import url('https://fonts.googleapis.com/css?family=Sniglet:800');
 
 
 /* Links */
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: black;
 }
 
 /* Custom default button */
@@ -34,8 +33,8 @@ body {
 
 body {
   font-family: Helvetica, sans-serif;
-  animation: colorchange 60s infinite;
-  -webkit-animation: colorchange 60s infinite;
+  animation: colorchange 45s infinite;
+  -webkit-animation: colorchange 45s infinite;
   display: -ms-flexbox;
   display: flex;
   color: #000;
@@ -43,11 +42,13 @@ body {
 
 .cover-heading {
   font-size: 70px;
-  font-style: italic;
-  font-family: 'Sniglet', cursive;
+  font-family: 'omnes-pro', sans-serif;
+  font-weight:800;
+  font-style:normal;
   line-height: 90%;
   padding-top: 50px;
   padding-bottom: 10px;
+  text-align: left;
 }
 
 .cover-subhead {
@@ -59,24 +60,26 @@ body {
 
 @keyframes colorchange
     {
-      0%   {background: #FF72C0;}
-      25%  {background: #FFD400;}
-      50%  {background: #4AFF9F;}
-      75%  {background: #24E9F6;}
-      100% {background: #FF72C0;}
+      0%   {background: #FDC5FF;}
+      33%  {background: #FFB050;}
+      66%  {background: #FE8E78;}
+      100%  {background: #FDC5FF;}
     }
 
 @-webkit-keyframes colorchange
     {
-      0%   {background: #FF72C0;}
-      25%  {background: #FFD400;}
-      50%  {background: #4AFF9F;}
-      75%  {background: #24E9F6;}
-      100% {background: #FF72C0;}
+      0%   {background: #FDC5FF;}
+      33%  {background: #FFB050;}
+      66%  {background: #FE8E78;}
+      100%  {background: #FDC5FF;}
     }
 
 .event-details {
   text-align: left;
+}
+
+.lead {
+  font-size: 18px;
 }
 
 .lead b {
@@ -84,12 +87,13 @@ body {
 }
 
 .quote-box {
+  text-align: left;
   padding-top: 40px;
   padding-bottom: 50px;
 }
 
 .quote-box a {
-  color: #222;
+  color: #000;
   text-decoration: underline;
 }
 
@@ -100,12 +104,12 @@ body {
 }
 
 .sayer {
-  font-size: 15px;
+  font-size: 18px;
   opacity: 0.7;
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: 46em;
 }
 
 
@@ -153,7 +157,18 @@ body {
 
 @media (max-width: 450px) {
   .cover-heading {
-    font-size: 40px;
+    font-size: 50px;
+    padding-top: 25px;
+  }
+  .coming-soon {
+    width:100%;
+  }
+
+}
+
+@media (max-width: 46em) {
+  .mastfoot {
+    flex-direction: column-reverse;
   }
 
 }
@@ -174,12 +189,24 @@ body {
 /*
  * Footer
  */
+
+footer {
+  width: 100%;
+}
+
 .footnote {
-  color: #fff;
+  text-align: left;
+  font-size: 15px;
+  color: #000;
   opacity: 0.8;
 }
 
-.mastfoot .mtauto {
-  color: rgba(255, 255, 255, .5);
+.small {
+  text-align: center;
+  color: black;
+}
+
+.mastfoot {
+  color: #000;
   max-width: 200%;
 }
