@@ -8,7 +8,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: black;
 }
 
 /* Custom default button */
@@ -109,7 +109,7 @@ body {
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: 46em;
 }
 
 
@@ -157,7 +157,18 @@ body {
 
 @media (max-width: 450px) {
   .cover-heading {
-    font-size: 40px;
+    font-size: 50px;
+    padding-top: 25px;
+  }
+  .coming-soon {
+    width:100%;
+  }
+
+}
+
+@media (max-width: 46em) {
+  .mastfoot {
+    flex-direction: column-reverse;
   }
 
 }
@@ -178,13 +189,24 @@ body {
 /*
  * Footer
  */
+
+footer {
+  width: 100%;
+}
+
 .footnote {
   text-align: left;
+  font-size: 15px;
   color: #000;
   opacity: 0.8;
 }
 
-.mastfoot .mtauto {
+.small {
+  text-align: center;
+  color: black;
+}
+
+.mastfoot {
   color: #000;
   max-width: 200%;
 }
