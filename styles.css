@@ -2,7 +2,6 @@
  * Globals
  */
 
-@import url('https://fonts.googleapis.com/css?family=Sniglet:800');
 
 
 /* Links */
@@ -43,8 +42,9 @@ body {
 
 .cover-heading {
   font-size: 70px;
-  font-style: italic;
-  font-family: 'Sniglet', cursive;
+  font-family: 'omnes-pro', sans-serif;
+  font-weight:800;
+  font-style:normal;
   line-height: 90%;
   padding-top: 50px;
   padding-bottom: 10px;
