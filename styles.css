@@ -166,9 +166,12 @@ body {
 
 }
 
-@media (max-width: 46em) {
+@media (max-width: 800px) {
   .mastfoot {
     flex-direction: column-reverse;
+  }
+  .cover-heading {
+    padding-top: 25px;
   }
 
 }
