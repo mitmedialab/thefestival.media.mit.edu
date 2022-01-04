@@ -193,20 +193,11 @@ body {
  * Footer
  */
 
-footer {
-  width: 100%;
-}
-
 .footnote {
   text-align: left;
   font-size: 15px;
   color: #000;
   opacity: 0.8;
-}
-
-.small {
-  text-align: center;
-  color: black;
 }
 
 .mastfoot {
