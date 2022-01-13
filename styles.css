@@ -41,14 +41,12 @@ body {
 }
 
 .cover-heading {
-  font-size: 70px;
   font-family: 'omnes-pro', sans-serif;
   font-weight:800;
   font-style:normal;
-  line-height: 90%;
-  padding-top: 50px;
-  padding-bottom: 10px;
-  text-align: left;
+  font-size: 80px;
+  line-height: 80%;
+  text-align: center;
 }
 
 .cover-subhead {
@@ -79,7 +77,7 @@ body {
 }
 
 .lead {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .lead b {
@@ -88,28 +86,25 @@ body {
 
 .quote-box {
   text-align: left;
-  padding-top: 40px;
-  padding-bottom: 50px;
 }
 
 .quote-box a {
-  color: #000;
   text-decoration: underline;
 }
 
 .quote {
-  font-size: 18px;
+  font-size: 20px;
   font-style: italic;
   opacity: 0.7;
 }
 
 .sayer {
-  font-size: 18px;
+  font-size: 20px;
   opacity: 0.7;
 }
 
 .cover-container {
-  max-width: 46em;
+  max-width: 50em;
 }
 
 
@@ -166,14 +161,25 @@ body {
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1020px) {
   .mastfoot {
     flex-direction: column-reverse;
+    padding-bottom: 2rem;
   }
   .cover-heading {
     padding-top: 25px;
   }
 
+}
+
+@media (min-width: 1020px) {
+  .mastfoot {
+    max-width: 200%;
+    bottom:0;
+    padding-bottom: 1.5rem;
+    padding-left: 0.5rem;
+    position: fixed;
+  }
 }
 
 
@@ -200,7 +206,3 @@ body {
   opacity: 0.8;
 }
 
-.mastfoot {
-  color: #000;
-  max-width: 200%;
-}
