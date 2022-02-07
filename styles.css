@@ -9,6 +9,7 @@ a,
 a:focus,
 a:hover {
   color: black;
+  text-decoration: underline;
 }
 
 /* Custom default button */
@@ -40,20 +41,18 @@ body {
   color: #000;
 }
 
-.cover-heading {
+p {
+  font-size: 20px;
+  text-align: left;
+}
+
+h1 {
   font-family: 'omnes-pro', sans-serif;
   font-weight:800;
   font-style:normal;
   font-size: 80px;
   line-height: 80%;
   text-align: center;
-}
-
-.cover-subhead {
-  font-size: 20px;
-  font-weight: lighter;
-  font-style: italic;
-  padding-bottom: 25px;
 }
 
 @keyframes colorchange
@@ -72,36 +71,6 @@ body {
       100%  {background: #FDC5FF;}
     }
 
-.event-details {
-  text-align: left;
-}
-
-.lead {
-  font-size: 20px;
-}
-
-.lead b {
-  font-weight: bold;
-}
-
-.quote-box {
-  text-align: left;
-}
-
-.quote-box a {
-  text-decoration: underline;
-}
-
-.quote {
-  font-size: 20px;
-  font-style: italic;
-  opacity: 0.7;
-}
-
-.sayer {
-  font-size: 20px;
-  opacity: 0.7;
-}
 
 .cover-container {
   max-width: 50em;
@@ -155,7 +124,7 @@ body {
     font-size: 50px;
     padding-top: 25px;
   }
-  .coming-soon {
+  .img-wide {
     width:100%;
   }
 
@@ -180,6 +149,14 @@ body {
     padding-left: 0.5rem;
     position: fixed;
   }
+
+  .menu {
+    max-width: 200%;
+    top:0;
+    padding-top: 2.5rem;
+    padding-left: 1rem;
+    position: fixed;
+  } 
 }
 
 
@@ -200,9 +177,6 @@ body {
  */
 
 .footnote {
-  text-align: left;
   font-size: 15px;
-  color: #000;
-  opacity: 0.8;
 }
 
