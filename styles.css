@@ -62,10 +62,11 @@ h2 {
   font-size: 50px;
   line-height: 90%;
   text-align: left;
+  margin-top: 6rem;
 }
 
 h3 {
-  margin-top: 4rem;
+  margin-top: 3rem;
   font-weight:800;
   text-align: left;
 }
