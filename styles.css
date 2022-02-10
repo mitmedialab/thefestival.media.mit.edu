@@ -87,6 +87,18 @@ h3 {
       100%  {background: #FDC5FF;}
     }
 
+    a img.hover {
+      display: none;
+  }
+  a img.default {
+      display: inherit;
+  }
+  a:hover img.hover {
+      display: inherit;
+  }
+  a:hover img.default {
+      display: none;
+  }
 
 .cover-container {
   max-width: 50em;
