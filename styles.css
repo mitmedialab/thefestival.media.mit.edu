@@ -70,6 +70,12 @@ h2 {
   text-align: left;
 }
 
+h3 {
+  font-style: italic;
+  text-align: left;
+  font-size: 23px;
+}
+
 hr {
   border: 1px solid black;
 }
@@ -107,15 +113,15 @@ hr {
 
 .agenda-section h1 {
   font-size: 65px;
-  line-height: 90%;
+  line-height: 100%;
   text-align: left;
   color: var(--red);
   margin-top: 2rem;
   margin-bottom: 4rem;
 }
 
-.host-text {
-  margin-top: -.5rem;
+.agenda-section h3 {
+  margin-top: -.3rem;
   margin-bottom: 2rem;
 }
 
@@ -153,7 +159,7 @@ hr {
  * Media Queries
  */
 
-@media (max-width: 450px) {
+@media (max-width: 570px) {
   .cover-heading {
     font-size: 50px;
     padding-top: 25px;
