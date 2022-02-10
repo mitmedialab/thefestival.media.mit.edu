@@ -116,7 +116,7 @@ hr {
   line-height: 100%;
   text-align: left;
   color: var(--red);
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 4rem;
 }
 
@@ -191,11 +191,10 @@ hr {
     position: fixed;
   }
 
-  .menu {
+  .back-btn {
     max-width: 200%;
-    top:0;
-    padding-top: 2.5rem;
-    padding-left: 1rem;
+    top:3rem;
+    left:2rem;
     position: fixed;
   } 
 }
