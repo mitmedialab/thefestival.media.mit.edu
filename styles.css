@@ -125,6 +125,13 @@ hr {
   margin-bottom: 2rem;
 }
 
+.back-btn {
+  height: 35px;
+  top:3rem;
+  left:0.5rem;
+  position: fixed;
+} 
+
 .workshop {
   margin-bottom: 5rem;
   text-align: left;
@@ -171,6 +178,15 @@ hr {
 
 }
 
+@media (min-width: 900px) {
+  .back-btn{
+    height: 50px;
+    top:3rem;
+    left:2rem;
+    position: fixed;
+  } 
+}
+
 @media (max-width: 1020px) {
   .mastfoot {
     flex-direction: column-reverse;
@@ -190,13 +206,6 @@ hr {
     padding-left: 0.5rem;
     position: fixed;
   }
-
-  .back-btn {
-    max-width: 200%;
-    top:3rem;
-    left:2rem;
-    position: fixed;
-  } 
 }
 
 
