@@ -178,6 +178,13 @@ hr {
     width:100%;
   }
 
+  h1 {
+    font-size: 60px;
+  }
+
+  .agenda-section h1 {
+    font-size: 50px;
+  }
 }
 
 @media (min-width: 900px) {
