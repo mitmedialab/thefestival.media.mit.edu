@@ -168,6 +168,12 @@ hr {
  * Media Queries
  */
 
+@media (max-width: 300px) {
+  .prereg-btn {
+    width:100%;
+  }
+}
+
 @media (max-width: 570px) {
 
   .cover-heading {
@@ -183,7 +189,7 @@ hr {
   }
 
   .agenda-section h1 {
-    font-size: 50px;
+    font-size: 45px;
   }
 }
 
