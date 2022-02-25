@@ -39,7 +39,7 @@ a:hover img.default {
 html,
 body {
   height: 100%;
-  
+  overflow-x: hidden;
 }
 
 body {
@@ -105,6 +105,9 @@ hr {
 
 .agenda-divider{
   border: 2px solid var(--red);
+  width: 500%;
+  left: -100%;
+  position: relative;
 }
 
 .agenda-section {
