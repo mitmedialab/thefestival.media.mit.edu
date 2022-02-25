@@ -190,6 +190,10 @@ hr {
     left:2rem;
     position: fixed;
   } 
+
+  p {
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 1020px) {
