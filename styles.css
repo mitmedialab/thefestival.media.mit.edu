@@ -268,7 +268,7 @@ hr {
 }
 
 @media (max-width: 940px) {
-  .agenda {
+  .agenda main{
     margin-top: 65px;
   }
 
