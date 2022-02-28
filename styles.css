@@ -265,6 +265,10 @@ hr {
 }
 
 @media (max-width: 940px) {
+  .agenda {
+    margin-top: 65px;
+  }
+
   .agenda-color-bar {
     display: initial;
   }
@@ -278,8 +282,6 @@ hr {
 }
 
 @media (max-width: 1020px) {
-  
-
   .cover-heading {
     padding-top: 25px;
   }
