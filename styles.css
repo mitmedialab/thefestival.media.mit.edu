@@ -68,12 +68,13 @@ h1 {
 h2 {
   font-weight:800;
   text-align: left;
+  font-size: 26px;
 }
 
 h3 {
   font-style: italic;
   text-align: left;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 hr {
@@ -111,21 +112,25 @@ hr {
 }
 
 .agenda-section {
-  margin-bottom: 5rem;
+  margin-bottom: 3.5rem;
 }
 
-.agenda-section h1 {
-  font-size: 65px;
+.agenda h1 {
+  font-size: 3rem;
   line-height: 100%;
   text-align: left;
   color: var(--red);
   margin-top: -.65rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
-.agenda-section h3 {
+.agenda h3 {
   margin-top: -.3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.agenda p {
+  font-size: 20px;
 }
 
 .back-btn {
@@ -135,8 +140,17 @@ hr {
   position: fixed;
 } 
 
+.img-wide {
+  width: 300px;
+}
+
+.prereg-btn {
+  width: 225px;
+  margin-bottom: 0.5rem;
+}
+
 .workshop {
-  margin-bottom: 5rem;
+  margin-bottom: 2.25rem;
   text-align: left;
 }
 
@@ -179,7 +193,11 @@ hr {
 
 @media (max-width: 380px) {
   h1 {
-    font-size: 40px;
+    font-size: 55px;
+  }
+
+  .img-wide {
+    width:100%;
   }
 }
 
@@ -195,17 +213,34 @@ hr {
     font-size: 45px;
     padding-top: 25px;
   }
-  .img-wide {
-    width:100%;
+
+  .agenda h1 {
+    font-size: 35px;
   }
 
-  .agenda-section h1 {
-    font-size: 45px;
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p, .agenda p {
+    font-size: 16px;
+  }
+
+  .prereg-btn {
+    width: 190px;
+  }
+
+  .img-wide {
+    width: 250px;
   }
 }
 
 @media (min-width: 900px) {
-  .agenda-section h1{
+  .agenda h1{
     margin-top: 1rem;
   }
   
@@ -217,7 +252,7 @@ hr {
   } 
 
   p {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 
