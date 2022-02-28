@@ -51,6 +51,10 @@ body {
   color: black;
 }
 
+.agenda {
+  background-color: var(--orange) !important;
+}
+
 p {
   font-size: 20px;
   text-align: left;
@@ -134,14 +138,25 @@ hr {
 }
 
 .back-btn {
-  height: 35px;
-  top:1rem;
-  left:0.5rem;
+  height: 50px;
+  top:3rem;
+  left:2rem;
   position: fixed;
+  z-index: 2;
 } 
 
 .img-wide {
   width: 300px;
+}
+
+.agenda-color-bar {
+  position: fixed;
+  width: 100%;
+  height: 65px;
+  left:0;
+  top:0;
+  z-index: 1;
+  display: none;
 }
 
 .prereg-btn {
@@ -243,28 +258,36 @@ hr {
   .agenda h1{
     margin-top: 1rem;
   }
-  
-  .back-btn{
-    height: 50px;
-    top:3rem;
-    left:2rem;
-    position: fixed;
-  } 
 
   p {
     font-size: 22px;
   }
 }
 
-@media (max-width: 1020px) {
-  .mastfoot {
-    flex-direction: column-reverse;
-    padding-bottom: 2rem;
+@media (max-width: 940px) {
+  .agenda-color-bar {
+    display: initial;
   }
+
+  .back-btn{
+    height: 35px;
+    top:1rem;
+    left:2.5rem;
+    position: fixed;
+  }
+}
+
+@media (max-width: 1020px) {
+  
+
   .cover-heading {
     padding-top: 25px;
   }
 
+  .mastfoot {
+    flex-direction: column-reverse;
+    padding-bottom: 2rem;
+  }
 }
 
 @media (min-width: 1020px) {
