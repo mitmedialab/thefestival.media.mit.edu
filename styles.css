@@ -44,15 +44,18 @@ body {
 
 body {
   font-family: Helvetica, sans-serif;
-  animation: colorchange 45s infinite;
-  -webkit-animation: colorchange 45s infinite;
   display: -ms-flexbox;
   display: flex;
   color: black;
 }
 
+/* Page Backgrounds */
 .agenda {
   background-color: var(--orange) !important;
+}
+.homepage {
+  animation: colorchange 45s infinite;
+  -webkit-animation: colorchange 45s infinite;
 }
 
 p {
