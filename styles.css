@@ -2,6 +2,13 @@
  * Globals
  */
 
+:root {
+  --pink: #FDCBFF;
+  --orange: #FFB964;
+  --coral: #FF9581;
+  --red: #EE2F14;
+}
+
 
 
 /* Links */
@@ -12,14 +19,17 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: .05rem solid #fff;
+a img.hover {
+  display: none;
+}
+a img.default {
+  display: inherit;
+}
+a:hover img.hover {
+  display: inherit;
+}
+a:hover img.default {
+  display: none;
 }
 
 /*
@@ -29,16 +39,23 @@ a:hover {
 html,
 body {
   height: 100%;
-  
+  overflow-x: hidden;
 }
 
 body {
   font-family: Helvetica, sans-serif;
-  animation: colorchange 45s infinite;
-  -webkit-animation: colorchange 45s infinite;
   display: -ms-flexbox;
   display: flex;
-  color: #000;
+  color: black;
+}
+
+/* Page Backgrounds */
+.agenda {
+  background-color: var(--orange) !important;
+}
+.homepage {
+  animation: colorchange 45s infinite;
+  -webkit-animation: colorchange 45s infinite;
 }
 
 p {
@@ -55,120 +72,122 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-weight:800;
+  text-align: left;
+  font-size: 26px;
+}
+
+h3 {
+  font-style: italic;
+  text-align: left;
+  font-size: 20px;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+
 @keyframes colorchange
     {
-      0%   {background: #FDC5FF;}
-      33%  {background: #FFB050;}
-      66%  {background: #FE8E78;}
-      100%  {background: #FDC5FF;}
+      0%   {background: var(--pink);}
+      33%  {background: var(--orange);}
+      66%  {background: var(--coral);}
+      100%  {background: var(--pink);}
     }
 
 @-webkit-keyframes colorchange
     {
-      0%   {background: #FDC5FF;}
-      33%  {background: #FFB050;}
-      66%  {background: #FE8E78;}
-      100%  {background: #FDC5FF;}
+      0%   {background: var(--pink);}
+      33%  {background: var(--orange);}
+      66%  {background: var(--coral);}
+      100%  {background: var(--pink);}
     }
 
 
-.cover-container {
-  max-width: 50em;
-}
-
 
 /*
- * Header
+ * Agenda Page
  */
-.masthead {
-  margin-bottom: 2rem;
+
+.agenda-divider{
+  border: 2px solid var(--red);
+  width: 500%;
+  left: -100%;
+  position: relative;
 }
 
-.masthead-brand {
-  margin-bottom: 0;
+.agenda-section {
+  margin-bottom: 3.5rem;
 }
 
-.nav-masthead .nav-link {
-  padding: .25rem 0;
-  font-weight: 700;
-  color: rgba(255, 255, 255, .5);
-  background-color: transparent;
-  border-bottom: .25rem solid transparent;
+.agenda h1 {
+  font-size: 3rem;
+  line-height: 100%;
+  text-align: left;
+  color: var(--red);
+  margin-top: -.65rem;
+  margin-bottom: 3rem;
 }
 
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+.agenda h3 {
+  margin-top: -.3rem;
+  margin-bottom: 0.5rem;
 }
 
-.nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
+.agenda p {
+  font-size: 20px;
 }
 
-.nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
+.back-btn {
+  height: 50px;
+  top:3rem;
+  left:2rem;
+  position: fixed;
+  z-index: 2;
+} 
+
+.img-wide {
+  width: 300px;
 }
 
-@media (min-width: 48em) {
-  .masthead-brand {
-    float: left;
-  }
-  .nav-masthead {
-    float: right;
-  }
+.agenda-color-bar {
+  position: fixed;
+  width: 100%;
+  height: 65px;
+  left:0;
+  top:0;
+  z-index: 1;
+  display: none;
 }
 
-@media (max-width: 450px) {
-  .cover-heading {
-    font-size: 50px;
-    padding-top: 25px;
-  }
-  .img-wide {
-    width:100%;
-  }
-
+.prereg-btn {
+  width: 225px;
+  margin-bottom: 0.5rem;
 }
 
-@media (max-width: 1020px) {
-  .mastfoot {
-    flex-direction: column-reverse;
-    padding-bottom: 2rem;
-  }
-  .cover-heading {
-    padding-top: 25px;
-  }
-
+.workshop {
+  margin-bottom: 2.25rem;
+  text-align: left;
 }
-
-@media (min-width: 1020px) {
-  .mastfoot {
-    max-width: 200%;
-    bottom:0;
-    padding-bottom: 1.5rem;
-    padding-left: 0.5rem;
-    position: fixed;
-  }
-
-  .menu {
-    max-width: 200%;
-    top:0;
-    padding-top: 2.5rem;
-    padding-left: 1rem;
-    position: fixed;
-  } 
-}
-
 
 /*
  * Cover
  */
+
 .cover {
   padding: 0 1.5rem;
 }
+
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: 700;
+}
+
+.cover-container {
+  max-width: 50em;
+  width: 100%;
 }
 
 
@@ -179,4 +198,111 @@ h1 {
 .footnote {
   font-size: 15px;
 }
+
+/*
+ * Media Queries
+ */
+
+@media (max-width: 320px) {
+  .prereg-btn {
+    width:100%;
+  }
+}
+
+@media (max-width: 380px) {
+  h1 {
+    font-size: 55px;
+  }
+
+  .img-wide {
+    width:100%;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 570px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 570px) {
+
+  .cover-heading {
+    font-size: 45px;
+    padding-top: 25px;
+  }
+
+  .agenda h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p, .agenda p {
+    font-size: 16px;
+  }
+
+  .prereg-btn {
+    width: 190px;
+  }
+
+  .img-wide {
+    width: 250px;
+  }
+}
+
+@media (min-width: 900px) {
+  .agenda h1{
+    margin-top: 1rem;
+  }
+
+  p {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 940px) {
+  .agenda main{
+    margin-top: 65px;
+  }
+
+  .agenda-color-bar {
+    display: initial;
+  }
+
+  .back-btn{
+    height: 35px;
+    top:1rem;
+    left:2.5rem;
+    position: fixed;
+  }
+}
+
+@media (max-width: 1020px) {
+  .cover-heading {
+    padding-top: 25px;
+  }
+
+  .mastfoot {
+    flex-direction: column-reverse;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (min-width: 1020px) {
+  .mastfoot {
+    max-width: 200%;
+    bottom:0;
+    padding-bottom: 1.5rem;
+    padding-left: 0.5rem;
+    position: fixed;
+  }
+}
+
 
