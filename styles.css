@@ -180,7 +180,7 @@ hr {
 @media (max-width: 570px) {
 
   .cover-heading {
-    font-size: 50px;
+    font-size: 45px;
     padding-top: 25px;
   }
   .img-wide {
@@ -188,7 +188,7 @@ hr {
   }
 
   h1 {
-    font-size: 60px;
+    font-size: 47px;
   }
 
   .agenda-section h1 {
