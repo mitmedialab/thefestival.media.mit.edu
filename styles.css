@@ -171,9 +171,21 @@ hr {
  * Media Queries
  */
 
-@media (max-width: 300px) {
+@media (max-width: 320px) {
   .prereg-btn {
     width:100%;
+  }
+}
+
+@media (max-width: 380px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 570px) {
+  h1 {
+    font-size: 60px;
   }
 }
 
@@ -185,10 +197,6 @@ hr {
   }
   .img-wide {
     width:100%;
-  }
-
-  h1 {
-    font-size: 47px;
   }
 
   .agenda-section h1 {
