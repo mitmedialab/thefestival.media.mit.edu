@@ -120,14 +120,14 @@ hr {
  */
 
 .agenda-divider{
-  border: 2px solid var(--red);
+  border: 1.5px solid var(--red);
   width: 500%;
   left: -100%;
   position: relative;
 }
 
 .agenda-section {
-  margin-bottom: 3.5rem;
+  margin-bottom: 3rem;
 }
 
 .agenda h1 {
@@ -141,7 +141,7 @@ hr {
 
 .agenda h3 {
   margin-top: -.3rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .agenda p {
@@ -208,7 +208,7 @@ hr {
  * Footer
  */
 
-.footnote {
+.footnote p{
   font-size: 15px;
 }
 
@@ -238,15 +238,19 @@ hr {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 470px) {
   .img-agenda {
     width: 100%;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
   }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 470px) {
   .img-agenda {
-    width: 350px;
+    width: 420px;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
   }
 }
 
