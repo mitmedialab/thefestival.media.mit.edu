@@ -49,10 +49,6 @@ body {
   color: black;
 }
 
-.align-left{
-  text-align: left;
-}
-
 /* Page Backgrounds */
 .agenda {
   background-color: var(--orange) !important;
@@ -144,6 +140,10 @@ hr {
   font-size: 20px;
 }
 
+.align-left {
+  text-align: left;
+}
+
 .back-btn {
   height: 50px;
   top:3rem;
@@ -230,6 +230,18 @@ hr {
 @media (min-width: 380px) and (max-width: 570px) {
   h1 {
     font-size: 60px;
+  }
+}
+
+@media (max-width: 400px) {
+  .img-agenda {
+    width: 100%;
+  }
+}
+
+@media (min-width: 400px) {
+  .img-agenda {
+    width: 300px;
   }
 }
 
