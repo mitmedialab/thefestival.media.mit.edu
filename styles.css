@@ -176,6 +176,10 @@ hr {
   text-align: left;
 }
 
+.workshop h3, .workshop p{
+  font-weight: 200;
+}
+
 /*
  * Cover
  */
