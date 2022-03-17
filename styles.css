@@ -49,6 +49,10 @@ body {
   color: black;
 }
 
+.align-left{
+  text-align: left;
+}
+
 /* Page Backgrounds */
 .agenda {
   background-color: var(--orange) !important;
