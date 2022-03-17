@@ -67,6 +67,10 @@ h3, p:not(b){
   font-weight: 200;
 }
 
+p b{
+  font-weight: 600;
+}
+
 b {
   font-weight:800;
 }
