@@ -134,7 +134,7 @@ hr {
   margin-bottom: 3rem;
 }
 
-.agenda h1 {
+.agenda h1, .red-header {
   font-size: 3rem;
   line-height: 100%;
   text-align: left;
