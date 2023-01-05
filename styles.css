@@ -3,10 +3,10 @@
  */
 
 :root {
-  --pink: #FFD6F3;
-  --orange: #FFC778;
-  --coral: #FAA694;
-  --red: #EE2F14;
+  --purple: #D1C8E1;
+  --yellow: #FFF34A;
+  --green: #8CA54F;
+  --orange: #F3BC61;
 }
 
 
@@ -54,8 +54,8 @@ body {
   background-color: var(--orange) !important;
 }
 .homepage {
-  animation: colorchange 45s infinite;
-  -webkit-animation: colorchange 45s infinite;
+  animation: colorchange 70 infinite;
+  -webkit-animation: colorchange 70s infinite;
 }
 
 p {
@@ -103,18 +103,20 @@ hr {
 
 @keyframes colorchange
     {
-      0%   {background: var(--pink);}
-      33%  {background: var(--orange);}
-      66%  {background: var(--coral);}
-      100%  {background: var(--pink);}
+      0%   {background: var(--purple);}
+      25%  {background: var(--yellow);}
+      50%  {background: var(--green);}
+      75%  {background: var(--orange);}
+      100%  {background: var(--purple);}
     }
 
 @-webkit-keyframes colorchange
     {
-      0%   {background: var(--pink);}
-      33%  {background: var(--orange);}
-      66%  {background: var(--coral);}
-      100%  {background: var(--pink);}
+      0%   {background: var(--purple);}
+      25%  {background: var(--yellow);}
+      50%  {background: var(--green);}
+      75%  {background: var(--orange);}
+      100%  {background: var(--purple);}
     }
 
 
