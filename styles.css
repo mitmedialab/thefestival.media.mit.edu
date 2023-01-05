@@ -5,8 +5,9 @@
 :root {
   --purple: #D1C8E1;
   --yellow: #FFF34A;
-  --green: #8CA54F;
+  --light-green: #8CA54F;
   --orange: #F3BC61;
+  --dark-green: #004D2B;
 }
 
 
@@ -43,10 +44,9 @@ body {
 }
 
 body {
-  font-family: Helvetica, sans-serif;
-  display: -ms-flexbox;
-  display: flex;
-  color: black;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 /* Page Backgrounds */
@@ -77,11 +77,12 @@ b {
 
 h1 {
   font-family: 'omnes-pro', sans-serif;
-  font-weight:800;
+  font-weight:700;
   font-style:normal;
   font-size: 80px;
   line-height: 80%;
   text-align: center;
+  color: var(--dark-green);
 }
 
 h2 {
@@ -105,7 +106,7 @@ hr {
     {
       0%   {background: var(--purple);}
       25%  {background: var(--yellow);}
-      50%  {background: var(--green);}
+      50%  {background: var(--light-green);}
       75%  {background: var(--orange);}
       100%  {background: var(--purple);}
     }
@@ -114,7 +115,7 @@ hr {
     {
       0%   {background: var(--purple);}
       25%  {background: var(--yellow);}
-      50%  {background: var(--green);}
+      50%  {background: var(--light-green);}
       75%  {background: var(--orange);}
       100%  {background: var(--purple);}
     }
@@ -126,7 +127,7 @@ hr {
  */
 
 .agenda-divider{
-  border: 1.5px solid var(--red);
+  border: 1.5px solid var(--dark-green);
   width: 500%;
   left: -100%;
   position: relative;
@@ -140,7 +141,7 @@ hr {
   font-size: 3rem;
   line-height: 100%;
   text-align: left;
-  color: var(--red);
+  color: var(--dark-green);
   margin-top: -.65rem;
   margin-bottom: 3rem;
 }
@@ -148,6 +149,7 @@ hr {
 .agenda h3 {
   margin-top: -.3rem;
   margin-bottom: 1rem;
+  color: var(--dark-green)
 }
 
 .agenda p {
