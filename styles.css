@@ -149,7 +149,8 @@ hr {
 .agenda h3 {
   margin-top: -.3rem;
   margin-bottom: 1rem;
-  color: var(--dark-green)
+  color: var(--dark-green);
+  font-size: 18px;
 }
 
 .agenda p {
