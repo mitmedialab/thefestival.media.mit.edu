@@ -183,11 +183,6 @@ hr {
   display: none;
 }
 
-.prereg-btn {
-  width: 225px;
-  margin-bottom: 0.5rem;
-}
-
 .workshop {
   margin-bottom: 2.25rem;
   text-align: left;
@@ -226,9 +221,6 @@ hr {
  */
 
 @media (max-width: 320px) {
-  .prereg-btn {
-    width:100%;
-  }
 }
 
 @media (max-width: 380px) {
@@ -257,9 +249,9 @@ hr {
 
 @media (min-width: 470px) {
   .img-agenda {
-    width: 420px;
+    width: 350px;
     padding-bottom: 1rem;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
   }
 }
 
@@ -288,6 +280,7 @@ hr {
 
   .prereg-btn {
     width: 190px;
+
   }
 
   .img-wide {
