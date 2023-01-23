@@ -253,6 +253,10 @@ hr {
 }
 
 @media (max-width: 470px) {
+  .footnote p{
+    width: 100%;
+  }
+  
   .img-agenda {
     width: 80%;
     padding-bottom: 1rem;
