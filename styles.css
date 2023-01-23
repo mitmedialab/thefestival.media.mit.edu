@@ -202,6 +202,10 @@ hr {
   display: none;
 }
 
+.agenda-color-bar .new-agenda {
+  color: var(--purple);
+}
+
 .workshop {
   margin-bottom: 2.25rem;
   text-align: left;
