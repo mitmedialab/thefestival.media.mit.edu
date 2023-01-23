@@ -128,7 +128,7 @@ hr {
  */
  
 .agenda-btn {
-  width: 300px;
+  width: 220px;
 }
 
 .agenda-divider{
@@ -212,6 +212,10 @@ hr {
   width: 100%;
 }
 
+.quote p{
+  font-size: 18px;
+}
+
 
 /*
  * Footer
@@ -272,7 +276,7 @@ hr {
   }
 
   .agenda-btn {
-    width: 70%;
+    width: 220px;
   }
 
   .agenda h1, .red-header {
@@ -287,7 +291,11 @@ hr {
     font-size: 16px;
   }
 
-  p, .agenda p {
+  p, .agenda p{
+    font-size: 18px;
+  }
+
+  .quote p {
     font-size: 16px;
   }
 
@@ -308,6 +316,10 @@ hr {
 
   p {
     font-size: 22px;
+  }
+
+  .quote p {
+    font-size: 20px;
   }
 }
 
