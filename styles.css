@@ -53,6 +53,11 @@ body {
 .agenda {
   background-color: var(--orange) !important;
 }
+
+.new-agenda {
+  background-color: var(--purple) !important;
+}
+
 .homepage {
   animation: colorchange 70 infinite;
   -webkit-animation: colorchange 70s infinite;
