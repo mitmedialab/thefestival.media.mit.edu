@@ -137,7 +137,7 @@ hr {
 }
 
 .agenda-divider{
-  border: 1.5px solid var(--dark-green);
+  border: 2.5px solid var(--dark-green);
   width: 500%;
   left: -100%;
   position: relative;
@@ -147,7 +147,7 @@ hr {
   margin-bottom: 3rem;
 }
 
-.agenda h1, .red-header {
+.agenda h1{
   font-size: 2.6rem;
   line-height: 100%;
   text-align: left;
@@ -242,7 +242,7 @@ hr {
     width:100%;
   }
 
-  h1, .red-header {
+  h1{
     font-size: 55px;
   }
 
@@ -252,7 +252,7 @@ hr {
 }
 
 @media (min-width: 380px) and (max-width: 570px) {
-  h1, .red-header {
+  h1{
     font-size: 60px;
   }
 }
@@ -271,7 +271,7 @@ hr {
 
 @media (min-width: 470px) {
   .img-agenda {
-    width: 350px;
+    width: 240px;
     padding-bottom: 1rem;
     padding-top: 1rem;
   }
