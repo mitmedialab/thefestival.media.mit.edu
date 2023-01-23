@@ -102,6 +102,11 @@ h3 {
   font-size: 20px;
 }
 
+h4 {
+  font-weight: 700;
+  font-size: 25px;
+}
+
 hr {
   /* border: 1px solid black; */
   border: 1px dashed var(--dark-green);
@@ -181,6 +186,10 @@ hr {
 
 .img-wide {
   width: 550px;
+}
+
+.green {
+  color: var(--dark-green);
 }
 
 .agenda-color-bar {
