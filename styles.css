@@ -152,7 +152,7 @@ hr {
   margin-bottom: 3rem;
 }
 
-.agenda h1{
+.agenda h1, .coming-soon{
   font-size: 2.6rem;
   line-height: 100%;
   text-align: left;
@@ -255,7 +255,7 @@ hr {
     width:100%;
   }
 
-  h1{
+  h1, coming-soon{
     font-size: 55px;
   }
 
@@ -265,7 +265,7 @@ hr {
 }
 
 @media (min-width: 380px) and (max-width: 570px) {
-  h1{
+  h1, coming-soon{
     font-size: 60px;
   }
 }
@@ -301,7 +301,7 @@ hr {
     width: 220px;
   }
 
-  .agenda h1, .red-header {
+  .agenda h1, .coming-soon {
     font-size: 35px;
   }
 
@@ -332,7 +332,7 @@ hr {
 }
 
 @media (min-width: 900px) {
-  .agenda h1, .red-header{
+  .agenda h1, .coming-soon{
     margin-top: 1rem;
   }
 
