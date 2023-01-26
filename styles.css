@@ -207,6 +207,10 @@ hr {
   color: var(--purple);
 }
 
+.schedule-graphic {
+  width: 500px;
+}
+
 .workshop {
   margin-bottom: 2.25rem;
   text-align: left;
@@ -330,6 +334,10 @@ hr {
   .prereg-btn {
     width: 190px;
 
+  }
+  
+  .schedule-graphic {
+    width: 100%;
   }
 
   .img-wide {
