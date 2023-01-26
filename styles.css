@@ -154,7 +154,7 @@ hr {
 }
 
 .agenda h1, .coming-soon{
-  font-size: 2.6rem;
+  font-size: 50px;
   line-height: 100%;
   text-align: left;
   color: var(--dark-green);
@@ -281,6 +281,7 @@ hr {
     padding-bottom: 1rem;
     padding-top: 0.5rem;
   }
+
 }
 
 @media (min-width: 470px) {
@@ -312,6 +313,10 @@ hr {
 
   h3 {
     font-size: 16px;
+  }
+
+  h4 {
+    font-size: 22px;
   }
 
   p, .agenda p{
