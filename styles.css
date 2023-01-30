@@ -186,7 +186,7 @@ hr {
   z-index: 2;
 } 
 
-.img-wide {
+.img-banner {
   width: 550px;
 }
 
@@ -265,7 +265,7 @@ hr {
     font-size: 55px;
   }
 
-  .img-wide {
+  .img-banner {
     width:100%;
   }
 }
@@ -341,7 +341,7 @@ hr {
     width: 100%;
   }
 
-  .img-wide {
+  .img-banner {
     width: 100%;
   }
 }
