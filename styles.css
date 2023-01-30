@@ -281,7 +281,7 @@ hr {
   }
   
   .img-agenda {
-    width: 80%;
+    max-width: 90%;
     padding-bottom: 1rem;
     padding-top: 0.5rem;
   }
@@ -290,7 +290,7 @@ hr {
 
 @media (min-width: 470px) {
   .img-agenda {
-    width: 240px;
+    /* width: 240px; */
     padding-bottom: 1rem;
     padding-top: 1rem;
   }
