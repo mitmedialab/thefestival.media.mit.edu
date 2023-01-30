@@ -106,7 +106,7 @@ h3 {
 h4 {
   font-weight: 700;
   font-size: 24px;
-  line-height: 200%;
+  line-height: 150%;
 }
 
 hr {
@@ -208,6 +208,10 @@ hr {
   color: var(--purple);
 }
 
+.agenda .row {
+  margin-top: 12px;
+}
+
 .schedule-graphic {
   width: 500px;
 }
@@ -223,7 +227,7 @@ hr {
  */
 
 .cover {
-  padding: 0 1.5rem;
+  padding: 0 0.75rem;
 }
 
 .cover .btn-lg {
@@ -253,12 +257,13 @@ hr {
  * Media Queries
  */
 
-@media (max-width: 320px) {
-}
-
 @media (max-width: 380px) {
   .agenda-btn {
     width:100%;
+  }
+
+  .agenda h1 {
+    font-size: 28px;
   }
 
   h1, coming-soon{
@@ -268,11 +273,24 @@ hr {
   .img-banner {
     width:100%;
   }
+
+  h4 {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 380px) and (max-width: 570px) {
-  h1, coming-soon{
+  h1{
     font-size: 60px;
+  }
+
+  .agenda h1, .coming-soon {
+    font-size: 33px;
+  }
+
+
+  h4 {
+    font-size: 20px;
   }
 }
 
@@ -308,20 +326,12 @@ hr {
     width: 220px;
   }
 
-  .agenda h1, .coming-soon {
-    font-size: 35px;
-  }
-
   h2 {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   h3 {
     font-size: 16px;
-  }
-
-  h4 {
-    font-size: 22px;
   }
 
   p, .agenda p{
