@@ -29,11 +29,18 @@
         <img class="back-btn" src="img/back-arrow.svg" height="50"/>
       </a>
 
+<!--  Pre-reg Button design if     
+      <a class="prereg-btn" href="#">
+        <img class="default" src="img/prereg-btn-default.svg"/>
+        <img class="hover" src="img/prereg-btn-hover.svg"/>
+      </a> -->
+
       <!-- Main Container -->
       <div class="cover-container mx-auto">
 
         <main role="main" class="inner cover">
           
+          <!-- Schedule Summary Section -->
           <div class="agenda-section align-left">
             <h1>Agenda</h1>
             <div class="container px-0 mx-0 mt-n3 mb-n4">
@@ -42,7 +49,9 @@
                   <h4 class="green">9:30am</h4>
                 </div>
                 <div class="col-8 col-sm-9">
-                  <h4>Kick-off + Breakfast</h4>
+                  <a href="#breakfast">
+                    <h4>Kick-off + Breakfast</h4>
+                  </a>
                 </div>
                 <div class="col-4 col-sm-3">
                   <h4 class="green">10:30</h4>
@@ -56,7 +65,9 @@
                   <h4 class="green">12:00pm</h4>
                 </div>
                 <div class="col-8 col-sm-9">
-                  <h4>MAS Lunch + Crazy AND Cool Pitch Session</h4>
+                  <a href="#crazy-cool">
+                    <h4>MAS Lunch + Crazy AND Cool Pitch Session</h4>
+                  </a>
                 </div>
                 <div class="col-4 col-sm-3">
                   <h4 class="green">1:15</h4>
@@ -96,134 +107,576 @@
                   <h4 class="green">5:30</h4>
                 </div>
                 <div class="col-8 col-sm-9">
-                  <h4>ML Feast</h4>
+                  <a href="#dinner">
+                    <h4>ML Feast</h4>
+                  </a>
                 </div>
               </div>
             </div>
-            <!-- <img class="mb-4 mt-n4 img-agenda" src="img/agenda.svg" width="500"> -->
           </div>
+
+          <!-- Block divider -->
           <hr class="agenda-divider mt-n2">
 
-
-          <!-- Agenda Time Block -->
+          <!-- 9:30 Block -->
           <div class="agenda-section">
+            
+            <a class="anchor" id="breakfast"></a>
 
+            <!-- Block time header -->
             <h1>9:30-10:30am</h1>
-              
-              <!-- <div class="workshop">
-                <h2></h2>
-                <h3>
-                  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                  </h3>
-                <p></p>
-              </div> -->
 
             <!-- Individual Workshop Content -->
             <div class="workshop">
-              <h2>Kick-off + Breakfast</h2>
-              <h3>Hosted by FoL 22 Team
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                3rd Floor Atrium</h3>
-              <p>Join us as we kick off the 2022 Festival of Learning in the 3rd floor atrium! We’ll also hold “Registration,” aka Make Your Own Wacky Nametag at this time 🖍️</p>
+              <!-- Event title -->
+              <h2>
+                Kick-off + Breakfast
+              </h2>
+              <!-- Event subtitle, host + location -->
+              <h3>
+                Sponsored by ML HR, hosted by FoL 23 team, 3rd Floor Atrium
+              </h3>
+              <!-- Event Description -->
+              <p>
+                Join us in the atrium to kick off the 2023 Festival of Learning with “Registration,” aka Make Your Own Wacky Nametag 🖍, and learn about a fun addition to the our sessions this year!
+              </p>
             </div>
+
           </div>
           
+          <!-- 10:30 block -->
           <hr class="agenda-divider">
-          
           <div class="agenda-section">
 
             <a class="anchor" id="workshops-1"></a>
 
             <h1>10:30-12:30pm<br>Workshops Session 1</h1>
 
-            <img class="img-agenda mb-4 mt-n4" src="img/blob-99f.svg">
+            <!-- <img class="img-agenda mb-4 mt-n4" src="img/blob-99f.svg"> -->
             
             <div class="workshop">
-              <h2>How to Set Up the 99F Sound System</h2>
-              <h3>Hosted by Philip Tan & Don Derek Haddad
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                3rd Floor Atrium</h3>
-              <p>We will show how we transport, set up, test, and pack up the Media Lab's 99F sound system! If we have time, we may also show how we set up the lights.</p>
+              <h2>
+                Recharge Room
+              </h2>
+              <h3>
+                E14-244
+              </h3>
+              <p>
+                Is FoL overstimulating? Stop by this room for white noise, earplugs, and gentle crafting.
+                <br><b>
+                  Note: This room is available all day!
+                </b>
+              </p>
             </div>
-          
-            <div class="workshop">
-              <h2>Drawing Humans: Character Concept Art</h2>
-              <h3>Hosted by Jocelyn Shen
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                E14-240</h3>
-              <p>Crash course in character concept sketching. Topics that will be covered (in rapid fire) are tentatively conveying emotion, drawing the human head (portraits), drawing the human figure, costumes and clothing, shape (2D), and form (3D). Participants will follow along with drawing instructions, discuss character ideas in groups, and sketch their own characters.</p>
-            </div>
-
-            <img class="img-agenda mb-4 mt-n4" src="img/blob-knitting.svg">
             
             <div class="workshop">
-              <h2>Chunky Hand Knitting a Bag!</h2>
-              <h3>Hosted by Kyung Yun Choi (Yun)
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                3rd Floor Atrium</h3>
-              <p>It will be a cozy and chill knitting session using your arms instead of knitting needle :) I'm thinking of hosting a short session for knitting a bowl or tote bag hand-knitted with a chunky velvet yarn or it could be more like crafting something fun with hand-knitting. Due to the material cost, we might need to hold this with limited number of people so better to have a registration form. Preregistration required</p>
+              <h2>
+                Chunky Hand Knitting + Crochet 101
+              </h2>
+              <h3>
+                Hosted by Kyung Yun Choi (Yun) & Rebecca Cuscaden Marvin, 3rd Floor Atrium
+              </h3>
+              <p>
+                Settle into a cozy knitting and crocheting session! We'll knit using your arms instead of a knitting needle, or get started on your first crochet project! Learn to work with yarn to craft a bowl, tote bag, and more!
+                <br><b>
+                  Pre-Registration Required for Hand Knitting / Drop-in for crochet!
+                </b>
+              </p>
+            </div>
               
-              <a class="prereg-btn" href="#">
-                <img class="default" src="img/prereg-btn-default.svg"/>
-                <img class="hover" src="img/prereg-btn-hover.svg"/>
-              </a>
-
+            <div class="workshop">
+              <h2>
+                Espresso 101
+              </h2>
+              <h3>
+                Hosted by David Simon (Black Magic Coffee Co.), Atrium kitchen
+              </h3>
+              <p>
+                You probably know Dave as the “espresso guy” from ML Member Meetings. Come pick his brain about pulling the perfect espresso: selecting beans, grinding, tamping, milk steaming, and more!
+              </p>
             </div>
 
+            <div class="workshop">
+              <h2>
+                Improv 101
+              </h2>
+              <h3>
+                Hosted by Matt Groh, E15-483
+              </h3>
+              <p>
+                Want to learn the basics of improv? We’ll have fun making things up and being ridiculous while playing games. Improvisational Theatre is a great form of social play and no experience is required!
+              </p>
+            </div>
+
+            <div class="workshop">
+              <h2>
+                Nootropics
+              </h2>
+              <h3>
+                Hosted by Nathan Whitmore, E14-493
+              </h3>
+              <p>
+                Nootropics are supplements and drugs that improve cognition! Join us to learn how they work, what kinds you can try, and try out some safe samples and cognitive tests!
+                <br><b>
+                  Note: Bring a laptop!
+                </b>
+              </p>
+            </div>
+              
+            <div class="workshop">
+              <h2>
+                How to Generate Your Own Fish
+              </h2>
+              <h3>
+                Hosted by Lingdong Huang, E15-359
+              </h3>
+              <p>
+                We will be hosting a creative coding workshop that provides you with a step by step tutorial for generating your own fish drawing in p5.js!
+                <br><b>
+                  Note: Bring a laptop!
+                </b>
+              </p>
+            </div>
+              
+            <div class="workshop">
+              <h2>
+                Resonate with me
+              </h2>
+              <h3>
+                Hosted by Alaa Algargoosh, E15-341
+              </h3>
+              <p>
+                Heard of Sound Tourism? Join us to learn how to recreate the sound experience of places around the world. You can also alter the properties of your voice (or any sound!) to hear how it would sound in Boston Symphony Hall and many other places and share the one that resonated with you!
+                <br><b>
+                  Note: Bring a laptop!
+                </b>
+              </p>
+            </div>
+              
+            <div class="workshop">
+              <h2>
+                Reading Tarot to Access Your Intuitive Self
+              </h2>
+              <h3>
+                Hosted by Cassie Lee, E14-514b
+              </h3>
+              <p>
+                Use symbolism to access your intuitive, subconscious mind! Join this hands-on workshop introducing the basic structures of tarot, try your own hand at reading, and a chance to win your own new deck.
+              </p>
+            </div>
+              
+            <div class="workshop">
+              <h2>
+                ChatGPT Oven: A Community Cookbook
+              </h2>
+              <h3>
+                Hosted by Manaswi Mishra & Kimy Lecamwasam, E14 5th floor cafe
+              </h3>
+              <p>
+                A fun and playful workshop to explore the ChatGPT world of weird and wacky cooking recipes. We will explore the world of generative AI to explore uncharted culinary possibilities. 
+                <br><b>
+                  Note: Bring a laptop!
+                </b>
+              </p>
+            </div>
+              
+            <div class="workshop">
+              <h2>
+                Inside the Yellow Box
+              </h2>
+              <h3>
+                Hosted by Conformable Decoders, YellowBox
+              </h3>
+              <p>
+                We will bring a small group inside the Conformable Decoders cleanroom “YellowBox” and give a tour of our equipment and lab space. Participants will see first-hand how we make miniature devices.
+                <br><b>
+                  Pre-Registration Required
+                </b>
+              </p>
+            </div>
+              
+          </div>
+
+          <!-- 12:00 PM block -->
           <hr class="agenda-divider">
-          
+          <div class="agenda-section">
+            
+            <a class="anchor" id="crazy-cool"></a>
+
+            <h1>12:00-1:15pm</h1>
+
+            <!-- <img class="img-agenda mb-4 mt-n4" src="img/blob-99f.svg"> -->
+            
+            <div class="workshop">
+              <h2>
+                MAS Lunch + Crazy <i>AND</i> Cool Pitch Session
+              </h2>
+              <h3>
+                Hosted by Andy Lippman & MAS, 3rd Floor Atrium
+              </h3>
+              <p>
+                “Wouldn't it be awesome if we, at the Lab, did X?” In this session, Media Labbers will pitch totally crazy but cool potential projects that could spark new research. Grab your lunch, take a seat, and cheer them on!
+                <br><b>
+                  Note: This session is streamed online to Media Lab alumni!
+                </b>
+              </p>
+            </div>
+          </div>
+
+          <!-- 1:30 block -->
+          <hr class="agenda-divider">
           <div class="agenda-section">
 
             <a class="anchor" id="workshops-2"></a>
 
-            <h1>1:30-3:30pm</br>Workshops Session 2</h1>
+            <h1>1:30-3:00pm<br>Workshops Session 2</h1>
+
+            <!-- <img class="img-agenda mb-4 mt-n4" src="img/blob-99f.svg"> -->
 
             <div class="workshop">
-              <h2>Nootropics</h2>
-              <h3>Hosted by Nathan Whitmore
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                E14-240</h3>
-              <p>Nootropics are supplements and drugs that improve cognition! We'll go over the types, how they work, and how you can buy them! We'll also have some (safe) samples and cognitive tests to try!</p>
+              <h2>
+                Recharge Room
+              </h2>
+              <h3>
+                E14-244
+              </h3>
+              <p>
+                Is FoL overstimulating? Stop by this room for white noise, earplugs, and gentle crafting.
+                <br><b>
+                  Note: This room is available all day!
+                </b>
+              </p>
             </div>
-
-            <img class="img-agenda mb-4 mt-n4" src="img/blob-honk.svg">
             
             <div class="workshop">
-              <h2>HONK! Media Lab & Parade!</h2>
-              <h3>Hosted by Sean Hickey & Lily Gabaree
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                E14-240</h3>
-              <p>In the spirit of the HONK! brass band festival that happens every year in Somerville, we'll bring folks together to learn one or two brass band tunes over the first hour (no experience necessary) and then we'll go on a parade around the lab playing those tunes. We'll have a few folks on hand to support and teach parts and (hopefully) extra instruments for those who don't have one. Folks are encouraged to bring their own horn, reed, or percussion instruments if they have one.</p>
+              <h2>
+                ML Community Co-Creation
+              </h2>
+              <h3>
+                Hosted by Eyal Perry & Isabella Loaiza-Saa, 3rd Floor Atrium
+              </h3>
+              <p>
+                Make connections and add to this drop-in installation, centered around the Media Lab's new collective research topics.
+                <br><b>
+                  Note: This activity runs all afternoon!
+                </b>
+              </p>
+            </div>
+
+            <div class="workshop">
+              <h2>
+                Body Art with Jagua Ink
+              </h2>
+              <h3>
+                Hosted by Andrea Porras, Atrium
+              </h3>
+              <p>
+                Learn about the ink made from jagua fruit and create your own body art design! You'll leave with a body art stain “temporary tattoo” that will last up to 3 weeks. 
+                <br><b>
+                  Note: Not for anyone with a fruit allergy
+                </b>
+              </p>
+            </div>
+
+            <div class="workshop">
+              <h2>
+                Coaxing Food out of Their Shells
+              </h2>
+              <h3>
+                Hosted by Lisa Breede & Jordan Madrid, 3rd floor kitchen
+              </h3>
+              <p>
+                Having trouble coaxing food to come out of their shells? Learn easy ways to get them to open up with food whisperers Lisa and Jordan!
+                <br><b>
+                  Note: This session runs from 1:30-2:30pm
+                </b>
+              </p>
+            </div>
+
+            <div class="workshop">
+              <h2>
+                Latin Dancing
+              </h2>
+              <h3>
+                Hosted by Camilo Rojas & Laura Chicos, E15-483
+              </h3>
+              <p>
+                Ready to get your spice on? We'll learn how to dance bachata & merengue! This workshop will teach the basic steps, turns, moves, and even choreographed sequences to some classic bangers that will impress everyone on the dance floor.
+              </p>
+            </div>
+
+            <div class="workshop">
+              <h2>
+                Existential Cafe: Bring a Philosopher to Work
+              </h2>
+              <h3>
+                Hosted by Valdemar Danry, E14-493
+              </h3>
+              <p>
+                Are we living in a world of scientific certainty or existential uncertainty? Bring a book or a paragraph from your favorite thinker and join us for an informal session on philosophy. The session will begin with an introduction to existentialism and end with a discussion on the questions of human experience!
+              </p>
+            </div>
+
+            <div class="workshop">
+              <h2>
+                How to Put Almost Anything in a Browser
+              </h2>
+              <h3>
+                Hosted by Nikhil Singh, Manuel Cherep, Jess Shand, & Kimy Lecamwasam, E15-359
+              </h3>
+              <p>
+                Want to make a fun interactive app or a visualization for thousands of audio clips? We'll demonstrate a simple and scalable approach to prototyping fully interactive web-based apps.
+                <br><b>
+                  Note: Bring a laptop!
+                </b>
+              </p>
+            </div>
+
+            <div class="workshop">
+              <h2>
+                dj 101
+              </h2>
+              <h3>
+                Hosted by Angela Vujic (dj vlad), E15-341
+              </h3>
+              <p>
+                Curious what's happening behind the decks?  Many of the 99F DJs got started in this very class! Learn the technical basics and how to prepare your first set. ⚡️🎚🎛🎚⚡️ 
+                <br><b>
+                  Note: Bring a laptop, headphones, and music (MP3, WAV, or Soundcloud or Tidal playlist!)
+                </b>
+              </p>
+            </div>
+
+            <div class="workshop">
+              <h2>
+                Drawing Humans: Character Concept Art
+              </h2>
+              <h3>
+                Hosted by Jocelyn Shen
+              </h3>
+              <p>
+                Come join a crash course in character concept sketching! Topics will include drawing the human head and figure, conveying emotions, costumes, clothing, and more. 
+                <br><b>
+                  Note: Instruction for the first half of the session and open drawing (drop in) for the last half. 
+                </b>
+              </p>
+            </div>
+
+            <div class="workshop">
+              <h2>
+                Make Your Own Pasta!
+              </h2>
+              <h3>
+                Hosted by Mitch Resnick, E14 5th floor cafe
+              </h3>
+              <p>
+                Start with just flour and eggs, and end up with delicious pasta! Mix, knead, flatten, cut, boil, and eat! I started making my own pasta a few years ago, and I love sharing the experience with others.
+              </p>
+            </div>
+
+            <div class="workshop">
+              <h2>
+                Share the Love: Create + Play with LLK
+              </h2>
+              <h3>
+                Hosted by Rupal Jain & LLK, E14 LLK table
+              </h3>
+              <p>
+                Come imagine, create, and play with us as we make interactive greeting cards to share the LOVE using the Lifelong Kindergarten Group's new mobile app (OctoStudio). 
+              </p>
             </div>
           </div>
 
+          <!-- 3:30 block -->
           <hr class="agenda-divider">
-
           <div class="agenda-section">
 
             <a class="anchor" id="workshops-3"></a>
 
-            <h1>3:30-5:30pm</br>Workshops Session 3</h1>
+            <h1>3:30-5:00pm<br>Workshops Session 3</h1>
+
+            <!-- <img class="img-agenda mb-4 mt-n4" src="img/blob-99f.svg"> -->
 
             <div class="workshop">
-              <h2>Nootropics</h2>
-              <h3>Hosted by Nathan Whitmore
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                E14-240</h3>
-              <p>Nootropics are supplements and drugs that improve cognition! We'll go over the types, how they work, and how you can buy them! We'll also have some (safe) samples and cognitive tests to try!</p>
+              <h2>
+                Recharge Room
+              </h2>
+              <h3>
+                E14-244
+              </h3>
+              <p>
+                Is FoL overstimulating? Stop by this room for white noise, earplugs, and gentle crafting.
+                <br><b>
+                  Note: This room is available all day!
+                </b>
+              </p>
             </div>
-
-            <img class="img-agenda mb-4 mt-n4" src="img/blob-honk.svg">
             
             <div class="workshop">
-              <h2>HONK! Media Lab & Parade!</h2>
-              <h3>Hosted by Sean Hickey & Lily Gabaree
-                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                E14-240</h3>
-              <p>In the spirit of the HONK! brass band festival that happens every year in Somerville, we'll bring folks together to learn one or two brass band tunes over the first hour (no experience necessary) and then we'll go on a parade around the lab playing those tunes. We'll have a few folks on hand to support and teach parts and (hopefully) extra instruments for those who don't have one. Folks are encouraged to bring their own horn, reed, or percussion instruments if they have one.</p>
+              <h2>
+                ML Community Co-Creation
+              </h2>
+              <h3>
+                Hosted by Eyal Perry & Isabella Loaiza-Saa, 3rd Floor Atrium
+              </h3>
+              <p>
+                Make connections and add to this drop-in installation, centered around the Media Lab's new collective research topics.
+                <br><b>
+                  Note: This activity runs all afternoon!
+                </b>
+              </p>
             </div>
+
+            <div class="workshop">
+              <h2>
+                ML-Style Chinese Paper Cutting
+              </h2>
+              <h3>
+                Hosted by Liu Yang & Cathy Fang, 3rd Floor Atrium
+              </h3>
+              <p>
+                Chinese paper cutting is widely used in celebrations such as Lunar New Year and is considered to symbolize luck and happiness. Join us as we mix the modernism style, like the Media Lab logo, and traditional Chinese paper-cut style to make beautiful creations.
+              </p>
+            </div>
+
+            <div class="workshop">
+              <h2>
+                Cooking the FoL Pasta Feast
+              </h2>
+              <h3>
+                Hosted by the FoL team, Atrium kitchen
+              </h3>
+              <p>
+                Chef it up with the FoL team! Pop by the Atrium kitchen to help with the dinner preparations.
+              </p>
+            </div>
+
+            <div class="workshop">
+              <h2>
+                Media Lab HONK! & Parade!
+              </h2>
+              <h3>
+                Hosted by Sean Hickey, Lily Gabaree, & the ML HONK! Band, E15-483
+              </h3>
+              <p>
+                Bringing the spirit of the annual HONK! brass band festival to the Media Lab, come build your own plastic trombone and learn how to play a brass tune (no experience necessary)! We'll finish with a musical parade around the lab!
+              </p>
+            </div>
+
+            <div class="workshop">
+              <h2>
+                Learn to move someone with your story
+              </h2>
+              <h3>
+                Hosted by Jimmy Day, E14-493
+              </h3>
+              <p>
+                Attendees of this session can leave with their own 3 minute story that can help them move a listener to action. Storytellers can be researchers, staff, or faculty members, who want to tell their story in a more compelling way to support a project or cause. Feel free to bring a laptop but not required.
+              </p>
+            </div>
+
+            <div class="workshop">
+              <h2>
+                Type In Motion
+              </h2>
+              <h3>
+                Hosted by Vera van de Seyp, E15-359
+              </h3>
+              <p>
+                Interested in making type move on sound or motion? With the programming language p5.js, we are going to make a typographic composition that changes when you move or speak! Session will include example code and resources needed.
+                <br><b>
+                  Note: Bring a laptop!
+                </b>
+              </p>
+            </div>
+
+            <div class="workshop">
+              <h2>
+                How to Set Up the 99F Sound System
+              </h2>
+              <h3>
+                Hosted by Philip Tan & Don Derek Haddad, E15-341
+              </h3>
+              <p>
+                Learn how to transport, set up, test, and pack up the Media Lab's 99F sound system! This session may also include setting up the 99F lighting system, if time permits.
+              </p>
+            </div>
+
+            <div class="workshop">
+              <h2>
+                Everyday Bhagavad Gita
+              </h2>
+              <h3>
+                Hosted by Alex Jung, E14-514b
+              </h3>
+              <p>
+                Join us for an introduction to the wisdom in the ancient Hindu text Bhagavad Gita that can help us find joy, peace and balance in our everyday living.
+              </p>
+            </div>
+
+            <div class="workshop">
+              <h2>
+                Spicy AI: Flavorful Blends with a little help from AI
+              </h2>
+              <h3>
+                Hosted by Manvitha Ponnapati, E14 5th floor cafe
+              </h3>
+              <p>
+                Drop in to learn the basics of blending spices, meet the volatile compounds behind flavors, and play with culinary AI models to generate new recipes. We will also try chili made with AI-generated spice combinations!
+              </p>
+            </div>
+
+            <div class="workshop">
+              <h2>
+                The textile arts of Batik-patterning and dyeing
+              </h2>
+              <h3>
+                Hosted by Irmandy Wicaksono, Mars Lab E14-251
+              </h3>
+              <p>
+                Batik is a wax-resist dyeing technique originating from the Island of Java, Indonesia. In this session, we will learn about Batik and how to apply hot wax resists with canting/hand-writing. We’ll make fabric swatches to hang around the Media Lab as a temporary installation and to take home!
+                <br><b>
+                  Note: Pre-Registration Required. This session runs from 3:30-5:30pm.
+                </b>
+              </p>
+            </div>
+
           </div>
 
+          <!-- 5:30 Block -->
+          <hr class="agenda-divider">
+          <div class="agenda-section">
+            
+            <a class="anchor" id="dinner"></a>
+
+            <!-- Block time header -->
+            <h1>5:30-7:00pm</h1>
+
+            <!-- Individual Workshop Content -->
+            <div class="workshop">
+              <!-- Event title -->
+              <h2>
+                ML Community Pasta Feast
+              </h2>
+              <h3>
+                Hosted by FoL 23 Team, 3rd Floor Atrium
+              </h3>
+              <!-- Event Description -->
+              <p>
+                Join us for a pasta dinner, made in-house! Meet community members and share what you've created and learned throughout the day.
+              </p>
+            </div>
+
+            <!-- Individual Workshop Content
+            <div class="workshop">
+              <h2>
+                Share Your Photos!
+              </h2>
+              <p>
+                Drop your pics in this Google Drive Folder, and share highlights on the ML Slack!
+              </p>
+            </div> -->
+          </div>
         </main>
 
       </div>
