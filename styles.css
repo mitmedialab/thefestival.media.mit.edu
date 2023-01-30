@@ -227,7 +227,7 @@ hr {
  */
 
 .cover {
-  padding: 0 0.75rem;
+  padding: 0 0.5rem;
 }
 
 .cover .btn-lg {
@@ -284,13 +284,16 @@ hr {
     font-size: 60px;
   }
 
+  h4 {
+    font-size: 20px;
+  }
+
   .agenda h1, .coming-soon {
     font-size: 33px;
   }
 
-
-  h4 {
-    font-size: 20px;
+  .agenda .row {
+    margin-top: 8px;
   }
 }
 
@@ -389,7 +392,7 @@ hr {
   .back-btn{
     height: 35px;
     top:1rem;
-    left:2.5rem;
+    left:1.5rem;
     position: fixed;
   }
 }
