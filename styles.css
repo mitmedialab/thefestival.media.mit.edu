@@ -50,13 +50,14 @@ body {
 }
 
 /* Page Backgrounds */
-.agenda {
+.agenda-23 {
+  background-color: var(--purple) !important;
+}
+
+.agenda-22 {
   background-color: var(--orange) !important;
 }
 
-.new-agenda {
-  background-color: var(--purple) !important;
-}
 
 .homepage {
   animation: colorchange 70 infinite;
@@ -341,7 +342,7 @@ hr {
   }
 
   .img-wide {
-    width: 250px;
+    width: 100%;
   }
 }
 
