@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700.95 186.02">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #905fa7;
+        font-family: BalooBhaijaan-Regular, 'Baloo Bhaijaan';
+        font-size: 73px;
+      }
+
+      .cls-4 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5 {
+        fill: #fcb74c;
+        stroke: #fcb74c;
+        stroke-miterlimit: 10;
+        stroke-width: 14px;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <rect class="cls-5" x="10.26" y="12.02" width="680.93" height="160.64" rx="60.35" ry="60.35"/>
+  <text class="cls-3" transform="translate(50.24 114.3)"><tspan class="cls-1" x="0" y="0">P</tspan><tspan class="cls-4" x="40.95" y="0">r</tspan><tspan x="69.57" y="0">opo</tspan><tspan class="cls-6" x="197.83" y="0">s</tspan><tspan x="234.11" y="0">e a </tspan><tspan class="cls-2" x="343.1" y="0">S</tspan><tspan x="383.46" y="0">ession</tspan></text>
+</svg>
