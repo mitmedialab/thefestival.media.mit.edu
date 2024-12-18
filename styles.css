@@ -70,6 +70,10 @@ body {
   background-color: var(--light-purple) !important;
 }
 
+.agenda-23 {
+  background-color: var(--pink) !important;
+}
+
 .agenda-22 {
   background-color: var(--old-pink) !important;
 }
