@@ -2,6 +2,8 @@
  * Globals
  */
 
+/* 2024 colors */
+/*
 :root {
   --purple: #D1C8E1;
   --yellow: #FFF34A;
@@ -12,8 +14,19 @@
   --dark-cyan: #12236b;
   --pink: #f0b9d3
 }
+*/
 
-
+/* 2025 colors */
+:root {
+  --light-purple: #B191EC;
+  --dark-purple: #380093;
+  --green: #79FB7D;
+  --dark-green: #004D2B;
+  --magenta: #C0018A;
+  --pink: #FF99C8
+  --cyan: #a2d7db;
+  --old-pink: #f0b9d3
+}
 
 /* Links */
 a,
@@ -58,7 +71,7 @@ body {
 }
 
 .agenda-22 {
-  background-color: var(--pink) !important;
+  background-color: var(--old-pink) !important;
 }
 
 
@@ -91,7 +104,7 @@ h1 {
   font-size: 80px;
   line-height: 80%;
   text-align: center;
-  color: var(--dark-cyan);
+  color: var(--dark-green);
 }
 
 h2 {
@@ -114,26 +127,26 @@ h4 {
 
 hr {
   /* border: 1px solid black; */
-  border: 1px dashed var(--dark-cyan);
+  border: 1px dashed var(--dark-green);
 }
 
 
 @keyframes colorchange
     {
-      0%   {background: var(--purple);}
+      0%   {background: var(--light-purple);}
       25%  {background: var(--pink);}
-      50%  {background: var(--cyan);}
+      50%  {background: var(--green);}
       75%  {background: var(--pink);}
-      100%  {background: var(--purple);}
+      100%  {background: var(--light-purple);}
     }
 
 @-webkit-keyframes colorchange
     {
-      0%   {background: var(--purple);}
+      0%   {background: var(--light-purple);}
       25%   {background: var(--pink);}
-      50%  {background: var(--cyan);}
+      50%  {background: var(--green);}
       75%   {background: var(--pink);}
-      100%  {background: var(--purple);}
+      100%  {background: var(--light-purple);}
     }
 
 
@@ -161,7 +174,7 @@ hr {
   font-size: 50px;
   line-height: 100%;
   text-align: left;
-  color: var(--dark-cyan);
+  color: var(--dark-green);
   margin-top: -.65rem;
   margin-bottom: 3rem;
 }
@@ -169,7 +182,7 @@ hr {
 .agenda h3 {
   margin-top: -.3rem;
   margin-bottom: 1rem;
-  color: var(--dark-cyan);
+  color: var(--dark-green);
   font-size: 18px;
 }
 
