@@ -16,14 +16,14 @@
 }
 */
 
-/* 2025 colors */
+/* 2026 colors */
 :root {
-  --light-purple: #B191EC;
-  --dark-purple: #380093;
-  --green: #79FB7D;
+  --blue: #227c9d;
+  --teal: #17c3b2;
+  --marigold: #ffcb77;
+  --cream: #fef9ef;
+  --salmon: #fe6d73;
   --dark-green: #004D2B;
-  --magenta: #C0018A;
-  --pink: #FF99C8;
   --cyan: #a2d7db;
   --old-pink: #f0b9d3
 }
@@ -66,12 +66,16 @@ body {
 }
 
 /* Page Backgrounds */
+.agenda-26 {
+  background-color: var(--cream) !important;
+}
+
 .agenda-25 {
-  background-color: var(--light-purple) !important;
+  background-color: #B191EC !important;
 }
 
 .agenda-23 {
-  background-color: var(--pink) !important;
+  background-color: #f0b9d3 !important;
 }
 
 .agenda-22 {
@@ -108,7 +112,7 @@ h1 {
   font-size: 80px;
   line-height: 80%;
   text-align: center;
-  color: var(--dark-green);
+  color: var(--blue);
 }
 
 h2 {
@@ -137,20 +141,20 @@ hr {
 
 @keyframes colorchange
     {
-      0%   {background: var(--light-purple);}
-      25%  {background: var(--pink);}
-      50%  {background: var(--green);}
-      75%  {background: var(--pink);}
-      100%  {background: var(--light-purple);}
+      0%   {background: var(--marigold);}
+      25%  {background: var(--cream);}
+      50%  {background: var(--salmon);}
+      75%  {background: var(--cream);}
+      100%  {background: var(--marigold);}
     }
 
 @-webkit-keyframes colorchange
     {
-      0%   {background: var(--light-purple);}
-      25%   {background: var(--pink);}
-      50%  {background: var(--green);}
-      75%   {background: var(--pink);}
-      100%  {background: var(--light-purple);}
+      0%   {background: var(--marigold);}
+      25%   {background: var(--cream);}
+      50%  {background: var(--salmon);}
+      75%   {background: var(--cream);}
+      100%  {background: var(--marigold);}
     }
 
 
@@ -164,7 +168,7 @@ hr {
 }
 
 .agenda-divider{
-  border: 2.5px solid var(--dark-cyan);
+  border: 2.5px solid var(--blue);
   width: 500%;
   left: -100%;
   position: relative;
